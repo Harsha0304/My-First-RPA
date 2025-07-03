@@ -46,7 +46,6 @@
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
       <AssemblyReference>PresentationCore</AssemblyReference>
-      
       <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
@@ -95,7 +94,7 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="668.6666666666666,1480.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="752,1480.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="username" />
     </Sequence.Variables>
@@ -104,7 +103,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="484,278" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="What is your Name" Title="Your Name">
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="334,246" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="What is your NAME" Title="Your Name">
       <ui:InputDialog.Result>
         <OutArgument x:TypeArguments="x:String">[username]</OutArgument>
       </ui:InputDialog.Result>
@@ -125,7 +124,7 @@
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="rpasamples.com/unicornname" CVScreenId="dff0c9ea-465a-4262-8d1b-e95e24e34915" ContentHash="9jaGS5GQf0WAaNS6jKneTA" CvElementArea="704, 603, 357, 44" CvType="InputBox" DesignTimeRectangle="706, 604, 354, 41" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='txtName' tag='INPUT' type='text' class='col-med form-el' placeholder='Enter your name' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="6f2ab637-5253-48ad-965c-61f2fbdbc0c0" InformativeScreenshot="227af47afebde0032c109a7fe5623e46.png" IsResponsive="True" Reference="NQkMzA4ckEuwjMFlI1dBEQ/5ELAuHSiRUyCaAmyaBveUA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Find Unicorn Name' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="dff0c9ea-465a-4262-8d1b-e95e24e34915" CvTextArea="360, 605, 240, 25" CvTextArgument="What is your name?*" CvType="Text" DesignTimeRectangle="364, 604, 342, 29" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='What is your name?*' tag='DIV' type='' class='col-med form-el' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='What is your name?*' /&gt;" Guid="4174706e-b4ad-4d4e-9d3f-1ca23e42906e" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
